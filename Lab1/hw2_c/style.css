@@ -1,0 +1,34 @@
+body
+{
+    background-color: black;
+    font-size: 1.2em;
+    color: yellow;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#banana1, #banana2
+{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#banana2
+{
+    float: right;
+}
+
+.column1
+{
+    width: 45%;
+    float: left;
+}
+
+.column2
+{
+    width 45%;
+}

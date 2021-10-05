@@ -1,0 +1,27 @@
+header
+{
+    text-align: center;
+}
+
+header, p
+{
+    font-style: normal;
+    font-size: 2em;
+}
+
+table, td, th
+{
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+ul li::marker 
+{
+    color: red;
+    font-size: 2em;
+}
