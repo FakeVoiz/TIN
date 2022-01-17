@@ -1,0 +1,17 @@
+body
+{
+    align-content: center;
+    text-align: center;
+}
+
+#table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#convertButton
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}

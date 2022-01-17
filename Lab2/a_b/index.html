@@ -1,0 +1,66 @@
+<head>
+    <title>Lab 2 A B</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div id="loginArea">
+            <label>Login</label>
+            <input type="text" id="login" name="login" required minlength="4">
+            <label>Password</label>
+            <input type="password" id="Password" name="name" required minlength="4">
+        </div>
+        
+        <div id="checkbox">
+            <p>
+                <label>Checkbox</label>
+                <input type="checkbox">
+            </p>
+        </div>
+        
+        <div id="radiobuttons">
+            <p>
+                <input type="radio" name="radio" value="1" checked> 
+                <label>1</label>
+            </p>
+            <p>
+                <input type="radio" name="radio" value="2"> 
+                <label>2</label>
+            </p>
+            <p>
+                <input type="radio" name="radio" value="3"> 
+                <label>3</label>
+            </p>
+        </div>
+        
+        <div id="dropdown">
+            <p>
+                <lable>Dropdown</lable>
+                <select name="pets" id="pet-select">
+                    <option value="">None</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="purple">Purple</option>
+                    <option value="black">Black</option>
+                </select>
+            </p>
+        </div>
+        
+        <div id="text">
+            <p>
+                <textarea name="usertext">
+                    Your text
+                </textarea>
+            </p>
+        </div>
+        
+        <div if="manageAnswer">
+            <p>
+                <button type="submit" value="submit">Submit</button>
+                <button type="reset" value="reset">Reset</button>
+            </p>
+        </div>
+    </form>
+</body>

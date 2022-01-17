@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+        <title>LAB6</title>
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+   <body>
+      <script src="../out/index.js"></script>
+      <span id="header"></span>
+      <p>
+         <label>Fahrenheit</label>
+         <input id="inputFahrenheits" type="number">
+         <label>Celcius</label>
+         <input id="inputCelcius" type="number">
+      </p>
+      <p>
+         <button id="convertButton" onclick="converterFromFahrenheitToCelcius(inputFahrenheits.value)">To Celcius</button>
+         <button id="convertButton" onclick="converterFromCelciusToFahrenheits(inputCelcius.value)">To Fahrenheit</button>
+      </p>
+      <p>Celcius: <span id="outputCelcius"></span></p>
+      <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+      <p id = "loginSpawn"></p>
+      <p>
+        <label>Email</label>
+        <input id ="emailInput" onchange ="checkEmailFormat(this.value)">
+         <label>Password</label>
+         <input id ="passwordInput" onchange ="checkPasswordFormat(this.value)">
+      </p>
+      <table id="table">
+         <tr>
+            <td>_</td>
+            <td>_</td>
+         </tr>
+         <tr>
+            <td>_</td>
+            <td>_</td>
+         </tr>
+         <tr>
+            <td>_</td>
+            <td>_</td>
+         </tr>
+      </table>
+      <p>
+         <button onclick="addTableRow()">Add</button>
+      </p>
+      <style>
+         table, td
+         {
+          border: 3px solid black;
+         }
+      </style>
+   </body>
+</html>
+

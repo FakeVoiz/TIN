@@ -1,0 +1,31 @@
+body
+{
+    margin-left: 35%;
+}
+
+form
+{
+    font-style: italic;
+    font-size: 24pt;
+}
+
+#loginArea input
+{
+    background-color: red;
+}
+
+#text textarea
+{
+    margin-left: 15%;
+    background-color: aqua;
+}
+
+#dropdown option
+{
+    background-color: aquamarine;
+}
+
+#manageAnswer, button
+{
+    width: 300px;
+}
